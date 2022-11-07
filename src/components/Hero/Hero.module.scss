@@ -3,7 +3,7 @@
     justify-content: space-around;
     min-height: 600px;
     position: relative;
-    
+
 
     &__info, &__stats, &__image {
         display: flex;
@@ -67,7 +67,7 @@
         top: 50%;
         transform: translate(-50%,-50%);
         img {
-
+            width: 700px;
         }
     }
 }

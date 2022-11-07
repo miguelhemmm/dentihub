@@ -1,7 +1,6 @@
 .search {
     position: absolute;
     left: 50%;
-    top: 58%;
     transform: translate(-50%,-50%);
     display: flex;
     justify-content: center;
@@ -34,6 +33,6 @@
             background:  darken(#EE1C47, 10);
         }
 
-        
+
     }
 }
