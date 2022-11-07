@@ -1,0 +1,33 @@
+.footer {
+    background: #000924;
+    padding: 10rem;
+    color: #fff;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+
+    &__lists {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 20rem;
+
+        ul {
+            list-style: none;
+        }
+
+        &--title {
+            font-weight: 500;
+            font-size: 1.8rem;
+        }
+    }
+
+    &__rights {
+        align-self: flex-start;
+    }
+
+}

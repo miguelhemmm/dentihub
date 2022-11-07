@@ -1,0 +1,14 @@
+.categories {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10rem;
+    height: 700px;
+    gap: 3rem;
+
+    &__info {
+        max-width: 600px;
+        text-align: center;
+    }
+}

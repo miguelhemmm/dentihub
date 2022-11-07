@@ -1,0 +1,73 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    min-height: 600px;
+    position: relative;
+    
+
+    &__info, &__stats, &__image {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        max-width: 450px;
+
+
+        p {
+            color: #676C7B;
+            line-height: 3rem;
+        }
+    }
+
+    &__info {
+        &--ratings {
+            .icons {
+                display: flex;
+
+                span {
+                    display: block;
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+
+                    &:not(:first-child) {
+                        margin-left: -15px;
+                    }
+
+                    &:last-child {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fff;
+                        background-color: #EE1C47;
+                        font-weight: 600;
+                        font-size: 1.8rem;
+                    }
+                }
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+
+        &--contact {
+            color: #EE1C47;
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+
+    &__image {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        img {
+
+        }
+    }
+}
