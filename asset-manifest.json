@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/miguelhemmm/dentihub/static/css/main.d0d5d4b0.css",
+    "main.js": "/miguelhemmm/dentihub/static/js/main.dc1d0aea.js",
+    "static/js/787.ec3668b6.chunk.js": "/miguelhemmm/dentihub/static/js/787.ec3668b6.chunk.js",
+    "static/media/icon.svg": "/miguelhemmm/dentihub/static/media/icon.1daf4dc2cf3a00576276e2658a66a12b.svg",
+    "static/media/hero-image.png": "/miguelhemmm/dentihub/static/media/hero-image.2f48b6da155617ecef22.png",
+    "index.html": "/miguelhemmm/dentihub/index.html",
+    "main.d0d5d4b0.css.map": "/miguelhemmm/dentihub/static/css/main.d0d5d4b0.css.map",
+    "main.dc1d0aea.js.map": "/miguelhemmm/dentihub/static/js/main.dc1d0aea.js.map",
+    "787.ec3668b6.chunk.js.map": "/miguelhemmm/dentihub/static/js/787.ec3668b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0d5d4b0.css",
+    "static/js/main.dc1d0aea.js"
+  ]
+}
